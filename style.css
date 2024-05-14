@@ -4,7 +4,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #d3e0ea; /* Adjust to match the light blue background */
+    background-color: hsl(212, 45%, 89%); /* Adjust to match the light blue background */
     font-family: Arial, sans-serif;
 }
 
