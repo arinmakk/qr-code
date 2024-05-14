@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3e0ea; /* Adjust to match the light blue background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    text-align: center;
+}
+
+.qrCodeImage {
+    max-width: 100%;
+    border-radius: 10px; /* Adjust if needed */
+    margin-bottom: 20px; /* Space between image and text */
+}
+
+#boldWords {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px; /* Space between bold text and description */
+}
+
+#description {
+    font-size: 0.9em;
+    color: #7d7d7d; /* Gray color for the description */
+}
